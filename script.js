@@ -63,7 +63,7 @@ for (var i=0; i<names.length; i++/* fill in parts of the 'for' loop to loop over
   if (firstLetter==="j"/* fill in condition here */) {
     byeSpeaker.speak(names[i]);
   } else {
-    helloSpeaker.(names[i]);
+    helloSpeaker.speak(names[i]);
   }
 }
 
